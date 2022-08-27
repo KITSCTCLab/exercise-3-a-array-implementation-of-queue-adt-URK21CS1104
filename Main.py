@@ -141,7 +141,6 @@ for i in range(length_of_text):
     stack_pop , queue_pop = solution.pop_character() , solution.dequeue_character()
     if(stack_pop == queue_pop):
         is_palindrome = True
-        break
     else:
         is_palindrome = False
 
